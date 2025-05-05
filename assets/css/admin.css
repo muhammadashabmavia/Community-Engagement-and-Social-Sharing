@@ -1,0 +1,114 @@
+/* Admin Dashboard Styles */
+.ai-community-dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.dashboard-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.stat-box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.stat-value {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #2271b1;
+}
+
+.activity-tabs {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.activity-tabs ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.activity-tabs li {
+    margin-right: 15px;
+}
+
+.activity-tabs li a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #2271b1;
+    border-bottom: 3px solid transparent;
+}
+
+.activity-tabs li.active a {
+    border-bottom-color: #2271b1;
+    font-weight: bold;
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Form Styles */
+.form-table th {
+    width: 250px;
+}
+
+.regular-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Reward and Challenge Forms */
+.rewards-grid, .challenge-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.reward-item, .challenge-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.reward-item h4, .challenge-item h4 {
+    margin-top: 0;
+    color: #2271b1;
+}
+
+.points-required {
+    font-weight: bold;
+    margin: 10px 0;
+    color: #d63638;
+}
+
+.redeem-reward, .join-challenge {
+    background: #2271b1;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.redeem-reward:hover, .join-challenge:hover {
+    background: #135e96;
+}

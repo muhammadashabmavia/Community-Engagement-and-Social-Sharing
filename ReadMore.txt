@@ -1,0 +1,71 @@
+AI COMMUNITY ENGAGEMENT SHORTCODES
+==================================
+
+1. FORUM SHORTCODE
+[ai_community_forum]
+
+Displays the AI-moderated community forum with these sections:
+- Financial Freedom
+- Personal Development 
+- Spiritual Healing
+- Relationships
+- Health & Wellness
+
+2. CHALLENGES SHORTCODE  
+[ai_social_challenges]
+
+Shows all active social challenges where users can:
+- Join challenges (like "7-Day Flower Challenge")
+- Track progress
+- Earn badges  
+- Share on social media with AI-generated hashtags
+- Earn through affiliate marketing
+
+3. LEADERBOARD SHORTCODE
+[ai_reward_leaderboard]
+
+Displays the community points leaderboard showing:
+- Top ranking members
+- Points earned
+- Current user's position (if logged in)
+
+4. PROFILE SHORTCODE
+[ai_community_profile]
+
+Shows the user's personal dashboard with:
+- Total points earned
+- Rewards unlocked
+- Available rewards to redeem  
+- Challenge participation history
+- Affiliate earnings
+
+USAGE INSTRUCTIONS:
+-------------------
+1. Create a "Community" page with:
+[ai_community_forum]
+[ai_social_challenges]
+
+2. Create a "Leaderboard" page with:  
+[ai_reward_leaderboard]
+
+3. Create a "My Profile" page with:
+[ai_community_profile]
+
+FEATURES INCLUDED:
+-----------------
+✓ AI-powered content moderation
+✓ Points and reward system
+✓ Social media integration  
+✓ Challenge tracking
+✓ Affiliate marketing
+✓ Badges and achievements
+✓ Leaderboard rankings
+✓ User profiles
+
+INSTALLATION:
+1. Upload the plugin zip file
+2. Activate the plugin
+3. Create pages with these shortcodes
+4. Configure settings in WP Admin > AI Community
+
+For support contact: syedashab80@gmail.com
